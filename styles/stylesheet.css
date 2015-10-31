@@ -1,0 +1,120 @@
+{
+  box-sizing: border-box; 
+}
+
+header {
+    margin: auto;
+}
+
+h1 { 
+    color: mediumpurple;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 { 
+    color: mediumpurple;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* nav is Navigation Bar */
+
+nav {
+    margin: auto;
+}
+
+nav li {
+    float: left;
+    background-color: mediumpurple;
+    list-style: none;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: 2px solid gray;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+}
+
+/* what does display:block do ?  */
+
+/*a { width:number } to set the width of the a hrefs */
+
+nav a:link {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* use text-decoration: none to get rid of underlines in hyperlinks */
+
+
+
+/* <section> is Left Sidebar */
+
+/*list-style: use 'none' to rid of li bullets or numbers */
+
+section { 
+    clear: both;
+    float: left;
+    width: 20%;
+    background-color: plum;
+}
+
+section li { 
+    list-style: none;
+    padding: 2rem;
+}
+
+/* div is the centered main content with image and text */
+
+div {
+    float: right; 
+    width: 80%;
+    background-color: lightgray;
+}
+
+div img { s
+      max-width: 40%;
+      padding-left: 25%;
+      padding-top: 2rem;
+}
+
+div p {
+    clear:both;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer {
+    clear: both;
+    margin: auto;
+}
+
+footer li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    display:block;
+    padding-left: 25%;
+    padding: 2rem;
+    border-top: 1rem;
+}
