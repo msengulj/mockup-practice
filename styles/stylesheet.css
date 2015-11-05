@@ -24,6 +24,7 @@ h2 {
 
 nav {
     margin: auto;
+    padding: 100%
     width: 100%;
 }
 
@@ -44,9 +45,6 @@ nav li {
 nav a {
     border-width: 14%;
 }
-
-
-/* what does display:block do ?  */
 
 /*a { width:number } to set the width of the a hrefs */
 
@@ -82,6 +80,7 @@ section li {
     padding: 2rem;
 }
 
+
 /* div is the centered main content with image and text */
 
 div {
@@ -93,6 +92,7 @@ div {
 div img { s
       max-width: 35%;
       padding-left: 25%;
+      padding-right: 25%;
       padding-top: 2rem;
 }
 
@@ -106,10 +106,24 @@ div p {
     font-size: 1em;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
+/* If an element is taller than the element containing it, and it is floated, it will overflow outside of its container.
+Used div class "clearfix" .clearfix to try this */ 
+
 footer {
     clear: both;
     margin: auto;
+    float: left;
+    padding-left: 30%;
+    padding-right: 10%;
 }
+
+/*adding the padding above centers the footer li. 
+
+display: block; - Displaying the links as block elements makes the whole link area clickable (not just the text), and it allows us to specify the width */
 
 footer li {
     float: left;
@@ -120,6 +134,6 @@ footer li {
     border-top: 1rem;
 }
 
-footer a {
+/* footer a {
     width: 30%;
-}
+} */
