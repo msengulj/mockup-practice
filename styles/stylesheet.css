@@ -23,9 +23,12 @@ h2 {
 /* nav is Navigation Bar */
 
 nav {
-    margin: auto;
-    padding: 100%
+    float: left;
+    display: block;
     width: 100%;
+    padding: none;
+    margin: none;
+    border: none;
 }
 
 nav li {
@@ -33,20 +36,22 @@ nav li {
     background-color: mediumpurple;
     list-style: none;
     text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    display: block;
+    width: 8.28%;
+    padding-left: 2.9%;
+    padding-right: 2.9%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-left: 2px solid gray;
-    width: 8.25%;
-    display: block;
 }
+
+/* managed to get nav bar to stretch acrss length of screen and scale by adjusting the padding on the left and right of the box model to percentages. */
 
 nav a {
     border-width: 14%;
 }
 
-/*a { width:number } to set the width of the a hrefs */
+a { width:number } to set the width of the a hrefs */
 
 nav a:link {
     text-decoration: none;
@@ -115,10 +120,12 @@ Used div class "clearfix" .clearfix to try this */
 
 footer {
     clear: both;
-    margin: auto;
     float: left;
+    width: none;
     padding-left: 30%;
-    padding-right: 10%;
+    padding-right: 9%;
+    border: none;
+    margin: none;
 }
 
 /*adding the padding above centers the footer li. 
