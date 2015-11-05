@@ -29,6 +29,7 @@ nav {
     padding: none;
     margin: none;
     border: none;
+    background-color: mediumpurple;
 }
 
 nav li {
@@ -47,7 +48,7 @@ nav li {
 
 /* managed to get nav bar to stretch acrss length of screen and scale by adjusting the padding on the left and right of the box model to percentages. */
 
-nav a {
+/* nav a {
     border-width: 14%;
 }
 
@@ -83,6 +84,13 @@ section {
 section li { 
     list-style: none;
     padding: 2rem;
+}
+
+section p {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 
